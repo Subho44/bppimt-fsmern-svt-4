@@ -15,7 +15,7 @@ return <>
 <Routes>
   <Route path="/" element={<Home/>}></Route>
   <Route path="/about" element={<About/>}></Route>
-  <Route path="/emp" element={<Employeecard/>}></Route>
+  <Route path="/emp" element={<Employeecard name="raj santra" email="raj@gmail.com" />}></Route>
   <Route path="/s" element={<Statcard/>}></Route>
 </Routes>
 

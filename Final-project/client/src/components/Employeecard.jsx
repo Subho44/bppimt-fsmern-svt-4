@@ -1,9 +1,17 @@
 import React from 'react'
 
-const Employeecard = () => {
-  return (
-    <div>Employeecard</div>
-  )
+const Employeecard = (props) => {
+
+  return <>
+  <div>
+    emp name: {props.name}
+  </div>
+  <div>
+    email:{props.email}
+  </div>
+  
+  
+  </>
 }
 
 export default Employeecard
