@@ -122,6 +122,25 @@ const Header = () => {
               >
                 Statcard
               </Link>
+              <Link
+                to="/add"
+                className="
+                  relative
+                  px-4 py-2
+                  text-sm sm:text-base
+                  font-medium
+                  rounded-lg
+                  transition-all
+                  duration-300
+                  hover:text-cyan-400
+                  hover:bg-slate-800
+                  hover:-translate-y-1
+                  hover:shadow-lg
+                  hover:shadow-cyan-500/20
+                "
+              >
+                Add Employee
+              </Link>
             </div>
 
           </div>
