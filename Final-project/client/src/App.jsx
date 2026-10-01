@@ -6,6 +6,7 @@ import Statcard from "./components/Statcard";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Addemployee from "./components/Addemployee";
+import Viewemployee from "./components/Viewemployee";
 
 const App = ()=>{
 
@@ -19,6 +20,7 @@ return <>
   <Route path="/emp" element={<Employeecard name="raj santra" email="raj@gmail.com" />}></Route>
   <Route path="/s" element={<Statcard/>}></Route>
   <Route path="/add" element={<Addemployee/>}></Route>
+  <Route path="/view" element={<Viewemployee/>}></Route>
 </Routes>
 
 <Footer/>
